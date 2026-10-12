@@ -1,0 +1,34 @@
+{
+  "name": "spesateam",
+  "version": "0.1.0",
+  "private": true,
+  "description": "SpesaTeam — spesa a domicilio dai supermercati di zona (demo)",
+  "type": "module",
+  "scripts": {
+    "dev": "vite build && node server/index.js",
+    "build": "vite build",
+    "start": "node server/index.js",
+    "reset-db": "node server/reset.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "bcryptjs": "^2.4.3",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "leaflet": "^1.9.4",
+    "lucide-react": "^0.468.0",
+    "pg": "^8.13.1",
+    "qrcode": "^1.5.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-leaflet": "^4.2.1",
+    "react-router-dom": "^6.28.0",
+    "recharts": "^2.15.0",
+    "tailwindcss": "^4.1.0",
+    "vite": "^5.4.11"
+  }
+}
